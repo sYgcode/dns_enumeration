@@ -1,0 +1,6 @@
+* it was kind of unclear from the question which side is the "receiving side". I assumed it was the server 
+when a request is sent, the site's dns server (ie dns.jct.ac.il) searches for the query.
+for example if we'll request the subdomain moodle.jct.ac.il the dns server will check all 
+entries and if the subdomain exists the ip address for the appropriate subdomain will be sent 
+over. if the dns server can't find a name matching the subdomain, it implies the subdomain 
+doesn't exist on the relevant dns server we are checking (ie dns.jct.ac.il).
